@@ -13,8 +13,6 @@ public class ex48 {
 
         // 주민등록번호에서 생년월일 추출
         int year = Integer.parseInt(jumin.substring(0, 2));
-        int month = Integer.parseInt(jumin.substring(2, 4));
-        int day = Integer.parseInt(jumin.substring(4, 6));
 
         // 기준년도 설정 (2018년)
         int baseYear = 2012;
