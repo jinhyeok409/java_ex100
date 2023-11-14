@@ -11,7 +11,7 @@ public class ex80 {
 
         // 복호화 후 출력
         String plainText = decryptCaesarCipher(cipherText);
-        System.out.println("복호화된 평문: " + plainText);
+        System.out.println("복호화가 된 평문: " + plainText);
     }
 
     // 씨저 암호 복호화 함수
